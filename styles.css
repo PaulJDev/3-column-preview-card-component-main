@@ -33,9 +33,7 @@ article {
     padding: 48px;
 }
 
-img {
-    margin-bottom: 36px;
-}
+img { margin-bottom: 36px; }
 
 h2 {
     color: var(--very-light-gray);
@@ -60,33 +58,15 @@ p {
     font-family: 'Lexend Deca', sans-serif;
     font-size: 15px;
 }
-#sedans {
-    background-color: var(--bright-orange);
-}
-#sedans > .btn {
-    color: var(--bright-orange);
-}
-#sedans > .btn:hover {
-    color: var(--very-light-gray);
-}
-#suvs {
-    background-color: var(--dark-cyan);
-}
-#suvs > .btn {
-    color: var(--dark-cyan);
-}
-#suvs > .btn:hover {
-    color: var(--very-light-gray);
-}
-#luxury {
-    background-color: var(--very-dark-cyan);
-}
-#luxury > .btn {
-    color: var(--very-dark-cyan);
-}
-#luxury > .btn:hover {
-    color: var(--very-light-gray);
-}
+#sedans { background-color: var(--bright-orange); }
+#sedans > .btn { color: var(--bright-orange); }
+#sedans > .btn:hover { color: var(--very-light-gray); }
+#suvs { background-color: var(--dark-cyan); }
+#suvs > .btn { color: var(--dark-cyan); }
+#suvs > .btn:hover { color: var(--very-light-gray); }
+#luxury { background-color: var(--very-dark-cyan); }
+#luxury > .btn { color: var(--very-dark-cyan); }
+#luxury > .btn:hover { color: var(--very-light-gray); }
 
 .btn:hover {
     border: 2px solid var(--very-light-gray);
@@ -94,10 +74,6 @@ p {
     cursor: pointer;
 }
 
-/*
-font-family: 'Big Shoulders Display', cursive;
-font-family: 'Lexend Deca', sans-serif;
-*/
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
@@ -107,10 +83,6 @@ font-family: 'Lexend Deca', sans-serif;
         display: flex;
         margin-top: 170px;
     }
-    article {
-        height: 500px;
-    }
-    p {
-        margin-bottom: 80px;
-    }
+    article { height: 500px; }
+    p { margin-bottom: 80px; }
 }
